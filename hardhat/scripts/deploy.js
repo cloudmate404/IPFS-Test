@@ -27,4 +27,4 @@ main()
     process.exit(1);
   });
 
-// LW3Punks Contract Address: 0xCcb21F5288454Fdf02f6a4aB7FF25887dcec35e4
+// LW3Punks Contract Address: 0xFd96bdb3C7651Ee2dC2DC0bc2Bc3448502eA32a4

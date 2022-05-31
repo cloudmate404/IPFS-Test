@@ -28,9 +28,9 @@ export default function Home() {
       const nftContract = new Contract(NFT_CONTRACT_ADDRESS, abi, signer);
       // call the mint from the contract to mint the LW3Punks
       const tx = await nftContract.mint({
-        // value signifies the cost of one LW3Punks which is "0.01" eth.
+        // value signifies the cost of one LW3Punks which is "0.001" eth.
         // We are parsing `0.01` string to ether using the utils library from ethers.js
-        value: utils.parseEther("0.01"),
+        value: utils.parseEther("0.001"),
       });
       setLoading(true);
       // wait for the transaction to get mined
