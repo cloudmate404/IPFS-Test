@@ -15,7 +15,7 @@
         string _baseTokenURI;
 
         // _price is the price of one LW3Punks NFT
-        uint256 public _price = 0.001 ether;
+        uint256 public _price = 0.0001 ether;
 
         // _paused is used to pause the contract in case of an emergency
         bool public _paused;
